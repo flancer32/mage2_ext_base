@@ -164,7 +164,7 @@ class Base
 
     public function getSet(
         $where = null,
-        $bind = null,
+        $bind = [],
         $order = null,
         $limit = null,
         $offset = null
